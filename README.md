@@ -22,7 +22,7 @@ Check Khodam adalah aplikasi web sederhana yang memungkinkan pengguna untuk mema
 1. Clone repository ini:
 
     ```bash
-    git clone https://github.com/username/repository-name.git
+    git clone https://github.com/HasanH47/check-khodam.git
     ```
 
 2. Buka file `index.html` di browser.
