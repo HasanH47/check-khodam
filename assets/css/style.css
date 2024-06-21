@@ -1,3 +1,4 @@
+/* Mengimpor font dari Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
 
 body {
@@ -22,6 +23,7 @@ body {
   max-width: 500px;
   width: 100%;
   margin: 20px auto;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -149,8 +151,7 @@ footer {
   text-align: center;
   margin-top: 20px;
   border-radius: 10px;
-  width: 100%;
-  max-width: 500px;
+  width: 27%;
   box-sizing: border-box;
 }
 
@@ -169,16 +170,19 @@ footer a:hover {
     padding: 10px;
   }
 
+  .container,
+  footer {
+    width: 100%;
+    max-width: 100%;
+  }
+
   h1 {
     font-size: 28px;
   }
 
   #input,
   #checkButton,
-  #resetButton {
-    width: 100%;
-  }
-
+  #resetButton,
   #search {
     width: 90%;
   }
