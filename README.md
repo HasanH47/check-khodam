@@ -46,6 +46,8 @@ Check Khodam adalah aplikasi web sederhana yang memungkinkan pengguna untuk mema
 │   │   └── main.js
 │   └── khodam
 │       └── list.txt
+├── .gitignore
+├── LICENSE
 ├── index.html
 └── README.md
 ```
