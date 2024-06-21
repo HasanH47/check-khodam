@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
 body {
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Comic Neue', 'Comic Sans MS', 'Comic Sans', cursive;
   background-color: #f0f8ff;
   margin: 0;
   padding: 0;
@@ -147,6 +149,9 @@ footer {
   text-align: center;
   margin-top: 20px;
   border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
 }
 
 footer a {
@@ -160,6 +165,10 @@ footer a:hover {
 }
 
 @media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
   h1 {
     font-size: 28px;
   }
@@ -171,7 +180,7 @@ footer a:hover {
   }
 
   #search {
-    width: 90%;
+    width: 100%;
   }
 
   th,
