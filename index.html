@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Khodam</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Check Khodam</h1>
+      <div class="input">
+        <input type="text" id="input" placeholder="Masukan Nama" />
+        <button id="checkButton">Check</button>
+        <p id="result"></p>
+      </div>
+      <div class="list-data">
+        <input type="text" id="search" placeholder="Cari data di tabel..." />
+        <table>
+          <thead>
+            <tr>
+              <th>Nama</th>
+              <th>Khodam</th>
+            </tr>
+          </thead>
+          <tbody id="list"></tbody>
+        </table>
+        <div id="pagination"></div>
+      </div>
+      <button id="resetButton">Reset</button>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
